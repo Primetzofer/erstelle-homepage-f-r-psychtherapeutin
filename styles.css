@@ -409,11 +409,16 @@ h3 {
 .contact-aside {
   display: grid;
   gap: 20px;
+  justify-items: center;
 }
 
 .contact-photo {
   margin: 0;
   max-width: 320px;
+}
+
+.contact-aside .contact-panel {
+  width: 100%;
 }
 
 .contact-photo img {
